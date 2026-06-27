@@ -11,6 +11,8 @@ TUNNELS_DIR="$INSTALL_DIR"/conf/tunnels
 NETWORKS_DIR="$INSTALL_DIR"/conf/networks
 CIRCUITS_DIR="$INSTALL_DIR"/conf/circuits
 PROFILES_DIR="$INSTALL_DIR"/conf/profiles
+
+NETWORKS_CONF="$(ls $NETWORKS_DIR/*.conf 2>/dev/null)";
 PRIVROUTER_CONF="$INSTALL_DIR"/conf/privrouter.conf
 
 
