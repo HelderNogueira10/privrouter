@@ -10,7 +10,7 @@ echo "[-] Upgrading Full System Install ..."
 
 #install prerequesites
 echo "[-] Installing prerequesities of privrouter ..."
-#apt install -y iptables net-tools openvpn cryptsetup -y &>>${PR_INSTALL_LOG} 
+#apt install -y iptables net-tools openvpn cryptsetup nginx -y &>>${PR_INSTALL_LOG} 
 
 read -p "Do you want an encrypted installation on Privrouter? [y/n]" encrypted
 #create dirstructure
